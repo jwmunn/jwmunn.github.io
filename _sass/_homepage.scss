@@ -1,0 +1,142 @@
+* {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+section {
+  width: 80vw;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+#intro {
+  clear: both;
+  display: block;
+  height: 20rem;
+  text-align: left;
+  width: 100%;
+}
+
+#portfolio {
+  position: relative;
+  width: 100vw;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+h1.section-headline {
+  position: absolute;
+  transform-origin: top left;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  top: -20%;
+  left: 25%;
+  color: rgba(0,0,0,.05);
+  font-size: 20rem;
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+  font-weight: 900;
+}
+
+h2, h4 {
+  margin: 0 0 .5rem 0;
+}
+
+h4, h4 strong {
+  font-family: monospace;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: #555;
+}
+
+h4 strong {
+  font-weight: 700;
+  color: #000;
+}
+.container {
+  border: 1px solid #F6A623;
+  position: relative;
+  padding: 2rem;
+}
+
+.text {
+  width: 55%;
+}
+
+.tr {
+  position: absolute;
+  top: -31px;
+  left: -32px;
+  border-right: 1px solid #F6A623;
+  height: 61px;
+  width: 61px;
+  background: #fff;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  
+}
+
+.br {
+  position: absolute;
+  bottom: -31px;
+  right: -32px;
+  border-left: 1px solid #F6A623;
+  height: 61px;
+  width: 61px;
+  background: #fff;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg); 
+}
+
+p {
+  font-weight: 200;
+  line-height: 1.25;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #F6A623;
+  margin-right: 2rem;
+  transition: color .2s ease;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.link:hover {
+  color: #F6A623;
+  text-decoration: none;
+}
+
+.image img {
+  box-shadow: 0 19px 48px rgba(0,0,0,0.25), 0 15px 22px rgba(0,0,0,0.17);
+  position: absolute;
+  z-index: 100;
+}
+
+.image img:first-child {
+  right: -10%;
+  top: -10%;
+}
+
+.image img:nth-child(2) {
+  right: 2%;
+  top: 30%;
+}
