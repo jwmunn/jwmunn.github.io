@@ -21,6 +21,12 @@ section {
   width: 100vw;
 }
 
+#portfolio-position {
+  position: absolute;
+  top: 0;
+  left: 20%;
+}
+
 h2 {
   font-weight: 700;
 }
@@ -41,7 +47,7 @@ h1.section-headline {
   top: -20%;
   left: 25%;
   color: rgba(0,0,0,.05);
-  font-size: 20rem;
+  font-size: 15rem;
   margin: 0;
   padding: 0;
   z-index: 100;
@@ -67,6 +73,7 @@ h4 strong {
   border: 1px solid #F6A623;
   position: relative;
   padding: 2rem;
+  margin-bottom: 6rem;
 }
 
 .text {
