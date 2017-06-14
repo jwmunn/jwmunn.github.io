@@ -3,8 +3,10 @@
 
 // Our variables
 // $base-font-family: "ff-good-headline-web-pro-con", Helvetica, Arial, sans-serif;
-$base-font-size:   1.375rem; // 22px
+$base-font-size:   1.275rem; // 22px
 $base-line-height: 1.6363;
+$small-font-size:  $base-font-size * 0.875;
+$small-line-height:  $base-line-height * 0.875;
 // $serif: "ff-meta-serif-web-pro", Georgia, serif;
 $small-font-size:  $base-font-size * 0.875;
 

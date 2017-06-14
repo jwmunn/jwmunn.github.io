@@ -31,13 +31,13 @@ section {
 }
 
 #intro {
-  clear: both;
   display: block;
   height: 30rem;
   text-align: left;
   position: relative;
-  margin-bottom: 4rem;
+  margin-bottom: 7rem;
   margin-top: 2rem;
+  @include grid-container;
 }
 
 .hero-text {
@@ -214,24 +214,29 @@ h4 strong {
 
 }
 
+#portfolio {
+  margin-top: $spacing-unit * 2;
+}
+
 #portfolio .container {
   // @include grid-collapse;
   z-index: 10;
   @include grid-column(9);
-  @include grid-push(1);
+  @include grid-push(3);
+  // @include grid-push(1);
 
   @include media-query($on-laptop){
-    @include grid-column(12);
-    @include grid-push(1);
+    @include grid-column(11);
+    @include grid-push(0);
     width: 100%;
     margin-left: 0px;
   }
 
   &:nth-child(even) {
-    @include grid-push(2);
+    @include grid-push(0);
 
     @include media-query($on-laptop){
-      @include grid-push(0);
+      @include grid-push(1);
       margin-left: 0px;
     }
   }
@@ -241,7 +246,7 @@ h4 strong {
   $elements: 8;
   @for $i from 0 to $elements {
     #portfolio .container:nth-child(#{$i}) {
-      z-index: #{($elements * 10) - (10 * $i) };
+      z-index: #{($elements * 100) - (10 * $i) };
     }
   }
 }
@@ -249,6 +254,9 @@ h4 strong {
 .text {
   @include grid-column(7);
   z-index: 300;
+  font-size: $small-font-size;
+  line-height: $small-line-height;
+  font-weight: 200;
 
   @include media-query($on-laptop){
     @include grid-column(12);
@@ -345,9 +353,8 @@ a, .link {
 
   @include media-query($on-laptop){
     right: auto;
-    top: auto;
-    left: -20%;
-    bottom: -20%;
+    top: 180px;
+    left: -70px;
   }
 }
 
@@ -356,9 +363,8 @@ a, .link {
   top: 30%;
 
   @include media-query($on-laptop){
-    top: auto;
-    right: -45%;
-    bottom: -5%;
+    top: 250px;
+    right: -45px;
   }
 }
 
