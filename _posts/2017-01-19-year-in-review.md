@@ -48,10 +48,10 @@ I liked living in Reno. The climate is like Colorado, dry and sunny with a reaso
         <img src="/images/2016-year-review/chandler1.jpg" alt="Chandler" />
         <figcaption>Chandler</figcaption>
     </figure>
-    <div class="half">
+    <figure class="half">
         <img src="/images/2016-year-review/horses.jpg" alt="Wild Horses" />
         <figcaption>Wild Horses near Virginia City, NV</figcaption>
-    </div>
+    </figure>
 </div>
 <figure>
     <img src="/images/2016-year-review/snowbird.jpg" alt="Reno" />
@@ -62,10 +62,10 @@ I liked living in Reno. The climate is like Colorado, dry and sunny with a reaso
         <img src="/images/2016-year-review/kirkwood-van.jpg" alt="Squaw Valley" />
         <figcaption>Kirkwood, CA</figcaption>
     </figure>
-    <div class="half">
+    <figure class="half">
         <img src="/images/2016-year-review/mammoth.jpg" alt="Mammoth" />
         <figcaption>Mammoth, CA</figcaption>
-    </div>
+    </figure>
 </div>
 <figure>
     <img src="/images/2016-year-review/emerald-bay.jpg" alt="Reno" />
@@ -102,10 +102,10 @@ After we left Reno we were heartbroken without anywhere to go. We were trying to
         <img src="/images/2016-year-review/joshua-tree.jpg" alt="Joshua Tree" />
         <figcaption>Joshua Tree National Park</figcaption>
     </figure>
-    <div class="half">
+    <figure class="half">
         <img src="/images/2016-year-review/route66.jpg" alt="Route 66" />
         <figcaption>Moving mode on Route 66.</figcaption>
-    </div>
+    </figure>
 </div>
 <figure>
     <img src="/images/2016-year-review/zion2.jpg" alt="Angels Landing" />
@@ -116,20 +116,20 @@ After we left Reno we were heartbroken without anywhere to go. We were trying to
         <img src="/images/2016-year-review/bryce.jpg" alt="Angels Landing" />
         <figcaption>Bryce Canyon National Park.</figcaption>
     </figure>
-    <div class="half">
+    <figure class="half">
         <img src="/images/2016-year-review/bryce-camp.jpg" alt="Route 66" />
         <figcaption>Getting meta at the Bryce campsite.</figcaption>
-    </div>
+    </figure>
 </div>
 <div class="row">
     <figure class="half">
         <img src="/images/2016-year-review/antelope.jpg" alt="Antelope Canyon" />
         <figcaption>Lower Antelope Canyon</figcaption>
     </figure>
-    <div class="half">
+    <figure class="half">
         <img src="/images/2016-year-review/monument-valley.jpg" alt="Route 66" />
         <figcaption>Monument Valley.</figcaption>
-    </div>
+    </figure>
 </div>
 
 ![Grand Canyon](/images/2016-year-review/grand-canyon.jpg)
@@ -144,20 +144,20 @@ After we left Reno we were heartbroken without anywhere to go. We were trying to
         <img src="/images/2016-year-review/saguaro.jpg" alt="Antelope Canyon" />
         <figcaption>Saguaro National Park</figcaption>
     </figure>
-    <div class="half">
+    <figure class="half">
         <img src="/images/2016-year-review/petraglyph.jpg" alt="Route 66" />
         <figcaption>Huge petraglyphs in Horseshoe Canyon, Canyonlands National Park</figcaption>
-    </div>
+    </figure>
 </div>
 <div class="row">
     <figure class="half">
         <img src="/images/2016-year-review/canyonlands-horse.jpg" alt="Wild Horse" />
         <figcaption>Wild Horse in Canyonlands.</figcaption>
     </figure>
-    <div class="half">
+    <figure class="half">
         <img src="/images/2016-year-review/aliens.jpg" alt="Route 66" />
         <figcaption>If the desert had a theme it would be Aliens and Dinosaurs</figcaption>
-    </div>
+    </figure>
 </div>
 
 <figure>
@@ -198,20 +198,20 @@ Susan got an offer and we didn’t have other options so we ended up in Grand Ju
         <img src="/images/2016-year-review/evans-sheep.jpg" alt="Mt. Evans sheep" />
         <figcaption>Hitchhikers at Mt. Evans.</figcaption>
     </figure>
-    <div class="half">
+    <figure class="half">
         <img src="/images/2016-year-review/quandary.jpg" alt="Northstar Snow Conditions" />
         <figcaption>View from Quandary Peak</figcaption>
-    </div>
+    </figure>
 </div>
 <div class="row">
     <figure class="half">
         <img src="/images/2016-year-review/susan-sneffels.jpg" alt="Mt. Evans sheep" />
         <figcaption>Susan climbing up Mt. Sneffels.</figcaption>
     </figure>
-    <div class="half">
+    <figure class="half">
         <img src="/images/2016-year-review/lincoln.jpg" alt="Mt. Lincoln" />
         <figcaption>Approaching the false summit of Mt. Lincoln.</figcaption>
-    </div>
+    </figure>
 </div>
 <figure>
     <img src="/images/2016-year-review/holy-cross.jpg" alt="Mt. of the Holy Cross" />
@@ -232,10 +232,10 @@ Susan got an offer and we didn’t have other options so we ended up in Grand Ju
         <img src="/images/2016-year-review/artist-point.jpg" alt="Mt. Evans sheep" />
         <figcaption>Rainy Artist Point in Yellowstone National Park.</figcaption>
     </figure>
-    <div class="half">
+    <figure class="half">
         <img src="/images/2016-year-review/lamar-valley.jpg" alt="Mt. Lincoln" />
         <figcaption>Lamar Valley in in Yellowstone National Park.</figcaption>
-    </div>
+    </figure>
 </div>
 
 ![Grinell Glacier](/images/2016-year-review/grinell-glacier.jpg)
@@ -269,10 +269,10 @@ When we lived in Reno and were planning on moving to LA we booked permits to hik
         <img src="/images/2016-year-review/whitney1.jpg" alt="Northstar Snow Conditions" />
         <figcaption>Hiking up to the summit during sunrise.</figcaption>
     </figure>
-    <div class="half">
+    <figure class="half">
         <img src="/images/2016-year-review/whitney2.jpg" alt="Northstar Snow Conditions" />
         <figcaption>Sunrise in the Sierras.</figcaption>
-    </div>
+    </figure>
 </div>
 <figure>
     <img src="/images/2016-year-review/whitney-couple.jpg" alt="Mt. Whitney Summit" />
@@ -283,20 +283,20 @@ When we lived in Reno and were planning on moving to LA we booked permits to hik
         <img src="/images/2016-year-review/glacier-point.jpg" alt="Glacier Point" />
     <figcaption>Yosemite from Glacier Point</figcaption>
     </figure>
-    <div class="half">
+    <figure class="half">
         <img src="/images/2016-year-review/yosemite-valley.jpg" alt="Yosemite Valley" />
         <figcaption>Half Dome from Yosemite Valley</figcaption>
-    </div>
+    </figure>
 </div>
 <div class="row">
     <figure class="half">
         <img src="/images/2016-year-review/south-sister.jpg" alt="South Sister" />
     <figcaption>Looking at Middle and North Sister from South Sister</figcaption>
     </figure>
-    <div class="half">
+    <figure class="half">
         <img src="/images/2016-year-review/bridge-of-the-gods.jpg" alt="Bridge of the Gods" />
         <figcaption>Looking for PCT thru-hikers on the Bridge of the Gods crossing into Washington.</figcaption>
-    </div>
+    </figure>
 </div>
 ![Trillium Lake](/images/2016-year-review/trillium-lake.jpg)
 <figcaption>Mt. Hood reflecting in Trillium Lake.</figcaption>
@@ -326,10 +326,10 @@ I love Seattle. We spent 8 months there in 2015. After the ups and downs of the 
         <img src="/images/2016-year-review/enchantments.jpg" alt="Enchantments" />
         <figcaption>Hiking through the lower Enchantments.</figcaption>
     </figure>
-    <div class="half">
+    <figure class="half">
         <img src="/images/2016-year-review/3fingers-ladders.jpg" alt="Three Fingers Ladders" />
         <figcaption>Ladders leading up to the Three Fingers fire lookout.</figcaption>
-    </div>
+    </figure>
 </div>
 
 <figure class="full-width">
@@ -342,10 +342,10 @@ I love Seattle. We spent 8 months there in 2015. After the ups and downs of the 
         <img src="/images/2016-year-review/sahale-arm.jpg" alt="Sahale Arm" />
         <figcaption>Coming down Sahale Arm towards Cascade Pass.</figcaption>
     </figure>
-    <div class="half">
+    <figure class="half">
         <img src="/images/2016-year-review/cooper-spur.jpg" alt="Cooper Spur" />
         <figcaption>Heading up Cooper Spur on Mt. Hood.</figcaption>
-    </div>
+    </figure>
 </div>
 <figure>
     <img src="/images/2016-year-review/reflection-lake.jpg" alt="Reflection Lake" />

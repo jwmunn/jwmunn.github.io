@@ -33,7 +33,7 @@ Another challenge for the week was to implement pagination functionality into th
 
 There was an existing gem that integrated with Bootstrap 4&rsquo;s syntax online created by [Ivan Palamarchuk](https://github.com/delef/will_paginate-bootstrap4). This was a great start but I wanted to take advantage of a few other Bootstrap classes not implemented. I saw in the `will_paginate` HTML renderer docs that the magic happened in the `initializers/will_paginate.rb`. Reverting back to my chunky iteration, I created a copy in my app that matched the `will_paginate-bootstrap4` initializer. I commented out everything I didn&rsquo;t want to change. Drop in the desired extra Bootstrap classes to the element and *voilà*: Beautiful customized Bootstrap pagination.
 
-![Bootstrap Pagination](/images/pushing-through-errors/brewster-paginate.jpg)
+<img src="/images/pushing-through-errors/brewster-paginate.jpg" alt="Bootstrap Pagination" />
 <figcaption>See the live work-in-progress <a href="https://nomster-justin-munn.herokuapp.com">here</a>.</figcaption>
 
 ## Contemplating Complexity
