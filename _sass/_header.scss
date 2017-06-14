@@ -1,0 +1,18 @@
+.nav-wrapper a {
+  border-bottom: none;
+  transition: color .2s ease;
+
+  &:hover {
+    color: #F6A623;
+  }
+}
+
+.site-title {
+  font-weight: 200;
+}
+
+.mob-hide {
+  @include media-query($on-laptop){
+    display: none;
+  }
+}
