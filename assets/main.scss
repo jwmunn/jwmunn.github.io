@@ -26,6 +26,31 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
+$on-palm-neat-grid: (
+  columns: 12,
+  gutter: 50px,
+  media: 600px,
+);
+
+$on-laptop-neat-grid: (
+  columns: 12,
+  gutter: 50px,
+  media: 800px,
+);
+
+// Media Query example with Neat Grid/Jekyll hybrid Neat grid is mobile-first (preferred). Refactor to same grid.
+// .element {
+//   @include grid-column(3);
+
+//   @include grid-media($on-laptop-neat-grid){
+//     @include grid-column(6);
+//   }
+
+//   @include grid-media($on-palm-neat-grid){
+//     @include grid-column(6);
+//   }
+// }
+
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -50,13 +75,13 @@ $on-laptop:        800px;
         "homepage"
 ;
 
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, .entry-content, figcaption {
-    @include media-query($on-laptop){
-        padding: 0 ($spacing-unit * 1.5);
-    }
-    @include media-query($on-palm){
-        padding: 0 ($spacing-unit / 2);
-    }
-}
+// h1, h2, h3, h4, h5, h6,
+// p, blockquote, pre,
+// ul, ol, dl, .entry-content, figcaption {
+//     @include media-query($on-laptop){
+//         padding: 0 ($spacing-unit * 1.5);
+//     }
+//     @include media-query($on-palm){
+//         padding: 0 ($spacing-unit / 2);
+//     }
+// }

@@ -16,7 +16,7 @@ section {
   padding-right: 10px;
 }
 
-.nav-wrapper {
+.nav-wrapper, .footer-wrapper {
   @include grid-column(12);
 }
 
@@ -35,19 +35,20 @@ section {
   display: block;
   height: 30rem;
   text-align: left;
-  width: 100%;
   position: relative;
   margin-bottom: 4rem;
   margin-top: 2rem;
-
 }
 
 .hero-text {
-  position: absolute;
   top: 0;
   left: 0;
   z-index: 100;
   @include grid-column(12);
+
+  @include media-query($on-laptop){
+    position: relative;
+  }
 
   & h3 {
     font-family: monospace;
@@ -59,38 +60,95 @@ section {
     font-size: 125%;
     line-height: 1.66;
     clear: both;
-  }
 
-  & #elsewhere {
-    @include grid-column(8);
-    @include grid-push(3);
+    @include media-query($on-laptop){
+      @include grid-column(12);
+      margin-left:0;
+    }
   }
+}
+
+.hero-social-links {
+    @include grid-column(3);
+    @include grid-push(3);
+
+    @include media-query($on-laptop){
+      @include grid-column(3);
+      @include grid-push(0);
+    }
+
+    @include media-query($on-palm){
+      @include grid-column(12);
+      @include grid-push(0);
+
+      & #elsewhere {
+        margin-left: -20px; //offset-grid padding for alignment
+      }
+
+      & #elsewhere li {
+         @include grid-column(4);
+      }
+
+      & .link {
+        margin-right: 0;
+       
+        // @include grid-collapse;
+      }
+    }
 }
 
 #hi {
   margin-bottom: -.5rem;
+  font-weight: 400;
+
+  @include media-query($on-palm){
+    margin-bottom: 0rem;
+  }
 }
 
 .hero-image {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -2%;
+  right: 20px;
+  z-index: -1;
+
   @include grid-column(6);
+
+  @include media-query($on-laptop){
+    top: 0%;
+    position: relative;
+    @include grid-column(9);
+    margin-bottom: 4rem;
+    right: 0;
+  }
+
+  @include media-query($on-palm){
+    top: 0%;
+    position: relative;
+    @include grid-column(12);
+    margin-bottom: 0;
+    z-index: 50;
+  }
 }
 
 #portfolio {
   position: relative;
 }
 
+.portfolio-wrapper {
+  @include grid-column(12);
+}
+
 #portfolio-position {
   position: absolute;
-  top: 0%;
+  top: -5%;
   left: 20%;
   z-index: 100;
   pointer-events: none
 }
 
-#elsewhere {
+ul#elsewhere {
+  margin-left: 0;
   list-style: none;
   padding-left: 0;
 }
@@ -99,8 +157,11 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  font-weight: 900;
+}
+
 h1 {
-  font-size: 4rem;
   font-weight: 900;
 }
 
@@ -127,34 +188,71 @@ h4, h4 strong {
   font-family: monospace;
   text-transform: uppercase;
   font-weight: 200;
-  color: #555;
+  color: #828282;
 }
 
 h4 strong {
   font-weight: 700;
-  color: #000;
+  color: #111;
 }
 .container {
   border: 1px solid #F6A623;
   position: relative;
-  padding: 2rem;
-  margin-bottom: 6rem;
-  box-sizing: border-box;
-  z-index: 10;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 12rem;
+  // box-sizing: border-box;
+  
+
+  @include media-query($on-laptop){
+    margin-bottom: 16rem;
+  }
+
+  @include media-query($on-palm){
+    margin-bottom: 8rem;
+  }
+
 }
 
 #portfolio .container {
-  @include grid-column(8);
+  // @include grid-collapse;
+  z-index: 10;
+  @include grid-column(9);
   @include grid-push(1);
 
+  @include media-query($on-laptop){
+    @include grid-column(12);
+    @include grid-push(1);
+    width: 100%;
+    margin-left: 0px;
+  }
+
   &:nth-child(even) {
-    @include grid-push(3);
+    @include grid-push(2);
+
+    @include media-query($on-laptop){
+      @include grid-push(0);
+      margin-left: 0px;
+    }
+  }
+}
+
+@include media-query($on-laptop){
+  $elements: 8;
+  @for $i from 0 to $elements {
+    #portfolio .container:nth-child(#{$i}) {
+      z-index: #{($elements * 10) - (10 * $i) };
+    }
   }
 }
 
 .text {
-  @include grid-column(8);
+  @include grid-column(7);
   z-index: 300;
+
+  @include media-query($on-laptop){
+    @include grid-column(12);
+  }
 }
 
 .tr {
@@ -193,15 +291,23 @@ p {
   line-height: 1.25;
 }
 
-.link {
+a, .link {
   text-decoration: none;
-  color: #000;
   border-bottom: 1px solid #F6A623;
-  margin-right: 2rem;
   transition: color .2s ease;
+}
+
+.link {
+  color: #111;
+  margin-right: 2rem;
   font-family: monospace;
   text-transform: uppercase;
   font-weight: 200;
+  display: inline-block;
+
+  @include media-query($on-palm){
+    margin-bottom: .5rem;
+  }
 }
 
 .link:hover {
@@ -212,6 +318,11 @@ p {
 .image {
   @include grid-column(4);
   @include grid-push(8);
+
+  @include media-query($on-laptop){
+    @include grid-column(12);
+    @include grid-push(0);
+  }
 }
 
 .hero-image img, .image img {
@@ -221,14 +332,55 @@ p {
 .image img,  {
   position: absolute;
   z-index: 100;
+  @include grid-column(6);
+
+  @include media-query($on-laptop){
+      @include grid-column(8);
+  }
+  
 }
 
 .image img:first-child {
   right: -15%;
   top: -10%;
+
+  @include media-query($on-laptop){
+    right: auto;
+    top: auto;
+    left: -20%;
+    bottom: -20%;
+  }
 }
 
 .image img:nth-child(2) {
   right: -5%;
   top: 30%;
+
+  @include media-query($on-laptop){
+    top: auto;
+    right: -45%;
+    bottom: -5%;
+  }
+}
+
+span.badge {
+  border: 1px solid #828282;
+  color: #828282;
+  font-size: 75%;
+  line-height: 100%;
+  text-transform: uppercase;
+  padding: .25rem;
+  margin-right: .25rem;
+}
+
+/*------------------------------
+    Footer Styles
+------------------------------*/
+
+.site-footer {
+  background: #111;
+
+  & a {
+    color: #828282;
+  }
 }
