@@ -1,0 +1,16 @@
+h2.post-title {
+  @include grid-column(8);
+}
+.post-list .post-meta {
+  @include grid-column(4);
+  text-align: right;
+}
+
+.post-link {
+  border-bottom: none;
+}
+
+.post-list li {
+    height: 5vmin;
+    border-bottom: 1px solid #F6A623;
+}

@@ -4,13 +4,25 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. Test change. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### Currently
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+<p>I’m living in <del>Lewes,&nbsp;DE</del> <del>Denver,&nbsp;CO</del> <del>Sacramento,&nbsp;CA</del> <del>Seattle,&nbsp;WA</del> <del>Reno, NV</del> <del>Grand Junction, CO</del> <del>Seattle, WA</del> <strong>Anchorage, AK</strong> until early July. I spend as much time outside as possible hiking, camping and have a bit of a snowboarding problem. I’m currently apprenticing as a web developer building web apps using ruby and javascript with <a href="http://www.thefirehoseproject.com/">The&nbsp;Firehose&nbsp;Project</a>, graduating June 2017.</p>
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
-<!--<div id="portfolio-position" class="rellax-uncentered" data-rellax-speed="-7"><h1 class="section-headline">ABOUT</h1></div>-->
+### Brief History
+
+I was born and raised in South and North Carolina respectively. I’m originally from Darlington, grew up in Rocky Mount, went to undergrad in Wilmington,and moved to Raleigh after graduation in 2010. While living in Raleigh I became a proud husband, and uncle. In June 2014, I started working remotely full-time and following wife's nursing contracts around the US.
+
+#### Skills
+<span class="badge">Javascript</span>
+<span class="badge">Ruby</span>
+<span class="badge">Ruby on Rails</span>
+<span class="badge">HTML</span>
+<span class="badge">CSS</span>
+<span class="badge">Sass</span>
+
+#### Tools
+<span class="badge">Git</span>
+<span class="badge">Github</span>
+<span class="badge">Jekyll</span>
+
+<!--<div id="about-position" class="rellax-uncentered" data-rellax-speed="-7"><h1 class="section-headline">ABOUT</h1></div>-->

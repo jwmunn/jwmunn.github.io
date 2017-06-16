@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Epicurrence&mdash;The Montues
+title:  Epicurrence - The Montues
 date:   2016-03-24 12:00:00
 permalink: blog/epicurrence-montues/
 tags: [event, life]

@@ -3,16 +3,16 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="site">
+    <div class="site-content">
+      {% include header.html %}
 
-    {% include header.html %}
-
-    <main class="page-content" aria-label="Content">
-      <!--<div class="wrapper">-->
-        {{ content }}
-      <!--</div>-->
-    </main>
-
+      <main class="page-content" aria-label="Content">
+        <!--<div class="wrapper">-->
+          {{ content }}
+        <!--</div>-->
+      </main>
+    </div>
     {% include footer.html %}
 
   <script src="/js/rellax/rellax.min.js"></script>

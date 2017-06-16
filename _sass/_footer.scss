@@ -1,0 +1,24 @@
+// Sticky Footer
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+// Styles
+.site-footer a{
+  border-bottom: 1px solid #F6A623;
+
+  &:hover {
+    text-decoration: none;
+    color: #F6A623;
+  }
+}
+
+.social-media-list a {
+  border-bottom: none;
+}
