@@ -10,7 +10,7 @@ permalink: /about/
 
 ### Brief History
 
-I was born and raised in South and North Carolina respectively. I’m originally from Darlington, grew up in Rocky Mount, went to undergrad in Wilmington,and moved to Raleigh after graduation in 2010. While living in Raleigh I became a proud husband, and uncle. In June 2014, I started working remotely full-time and following wife's nursing contracts around the US.
+I was born and raised in South and North Carolina respectively. I’m originally from Darlington, grew up in Rocky Mount, went to undergrad in Wilmington,and moved to Raleigh after graduation in 2010. While living in Raleigh I became a proud husband, and uncle. In June 2014, I started working remotely full-time and following my wife's nursing contracts around the US.
 
 #### Skills
 <span class="badge">Javascript</span>
