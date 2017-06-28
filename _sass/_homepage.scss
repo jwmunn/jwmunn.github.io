@@ -152,6 +152,7 @@ body {
   @include media-query($on-palm){
     top: 8%;
     left: 150px;
+    display: none;
   }
 }
 
@@ -252,7 +253,7 @@ h4 strong {
 }
 
 #portfolio .container:not(:first-child) {
-  margin-top: $spacing-unit;
+  margin-top: $spacing-unit * 2;
 }
 
 @include media-query($on-laptop){
@@ -342,6 +343,19 @@ a, .link {
   @include media-query($on-laptop){
     @include grid-column(12);
     @include grid-push(0);
+    position: relative;
+    margin-top: $spacing-unit / 2;
+    @include grid-collapse;
+  }
+
+  @include media-query($on-palm){
+    margin-top: $spacing-unit * 2.25;
+  }  
+}
+
+.image:first-child {
+  @include media-query($on-laptop){
+    margin-top: 0;
   }
 }
 
@@ -373,8 +387,8 @@ a, .link {
   @include media-query($on-palm){
     right: auto;
     top: auto;
-    left: -30px;
-    bottom: -114px;
+    left: -10px;
+    bottom: -150px;
   }
 }
 
@@ -388,8 +402,8 @@ a, .link {
   }
 
   @include media-query($on-palm){
-    bottom: -130px;
-    right: -10px;
+    bottom: -200px;
+    right: 10px;
     top: auto;
   }
 }
