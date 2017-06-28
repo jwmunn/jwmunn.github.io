@@ -40,7 +40,7 @@ ul, ol, dl, figure,
 h1 {
     font-size: 4.125rem; // 66px
     line-height: 1.15;
-    margin-bottom: $spacing-unit !important;
+    margin-bottom: $spacing-unit;
     @include media-query($on-palm){
         font-size: 2rem; //58px
     }
