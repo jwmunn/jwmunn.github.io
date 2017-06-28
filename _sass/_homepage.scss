@@ -277,7 +277,7 @@ h4 strong {
   }
 }
 
-.tr {
+.tl {
   position: absolute;
   top: -31px;
   left: -32px;
@@ -290,6 +290,13 @@ h4 strong {
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
+
+  @include media-query($on-palm){
+    height: 31px;
+    width: 31px;
+    top: -16px;
+    left: -17px;
+   }
   
 }
 
@@ -306,6 +313,13 @@ h4 strong {
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   -ms-transform: rotate(45deg); 
+
+   @include media-query($on-palm){
+    height: 31px;
+    width: 21px;
+    bottom: -12px;
+    right: -8px;
+   }
 }
 
 p {
