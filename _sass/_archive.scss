@@ -1,9 +1,21 @@
 h2.post-title {
   @include grid-column(8);
+
+  @include media-query($on-palm){
+    @include grid-column(12);
+    @include grid-collapse;
+    margin-left: 0px;
+  }
 }
 .post-list .post-meta {
   @include grid-column(4);
   text-align: right;
+
+  @include media-query($on-palm){
+    @include grid-column(12);
+    text-align: left;
+    margin-left: 0px;
+  }
 }
 
 .post-link {
@@ -11,6 +23,18 @@ h2.post-title {
 }
 
 .post-list li {
-    height: 5vmin;
+    height: 2.5rem;
     border-bottom: 1px solid #F6A623;
+    padding-top: 1rem;
+
+    @include media-query($on-palm){
+      height: 4rem;
+    }
+}
+
+ul.post-list {
+  @include media-query($on-palm){
+    width:100%;
+    margin-left: 0px;
+  }
 }
