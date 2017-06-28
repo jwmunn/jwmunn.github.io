@@ -4,11 +4,11 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 
-section {
+// section {
   // width: 80vw;
   // max-width: 750px;
   // margin: 0 auto;
-}
+// }
 
 #logo {
   height: 30px;
@@ -144,7 +144,9 @@ section {
   top: -2%;
   left: 170px;
   z-index: 100;
-  pointer-events: none
+  pointer-events: none;
+  height: 0px;
+  width: 0px;
 }
 
 ul#elsewhere {
@@ -222,22 +224,21 @@ h4 strong {
   // @include grid-collapse;
   z-index: 10;
   @include grid-column(9);
-  @include grid-push(3);
+  @include grid-push(2);
   // @include grid-push(1);
 
   @include media-query($on-laptop){
     @include grid-column(11);
     @include grid-push(0);
     width: 100%;
-    margin-left: 0px;
   }
 
   &:nth-child(even) {
     @include grid-push(0);
+    margin-left: 0px;
 
     @include media-query($on-laptop){
       @include grid-push(1);
-      margin-left: 0px;
     }
   }
 }
