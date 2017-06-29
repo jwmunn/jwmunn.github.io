@@ -25,6 +25,6 @@ permalink: /about/
 
 I was born and raised in South and North Carolina respectively. I’m originally from Darlington, grew up in Rocky Mount, went to undergrad in Wilmington,and moved to Raleigh after graduation in 2010. While living in Raleigh I became a proud husband, and uncle. In June 2014, I started working remotely full-time and following my wife's nursing contracts around the US.
 
-![Hello my name is Justin](/../images/about-pic.jpg)
+<!--![Hello my name is Justin](/../images/about-pic.jpg)-->
 
 <!--<div id="about-position" class="rellax-uncentered" data-rellax-speed="-7"><h1 class="section-headline">ABOUT</h1></div>-->
