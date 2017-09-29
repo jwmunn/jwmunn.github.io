@@ -43,7 +43,11 @@
 
     body {
       text-align: center;
-      background: #845EC2;
+      background: #845ec2; /* Old browsers */
+      background: -moz-linear-gradient(-45deg, #845ec2 52%, #0081cf 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(-45deg, #845ec2 52%,#0081cf 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(135deg, #845ec2 52%,#0081cf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#845ec2', endColorstr='#0081cf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
       color: white;
       font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;;
       font-weight: 100;
