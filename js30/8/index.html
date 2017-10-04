@@ -5,6 +5,7 @@
   <title>HTML5 Canvas</title>
 </head>
 <body>
+<h3>Click and Drag to Draw</h3>
 <canvas id="draw" width="800" height="800"></canvas>
 <script>
 const canvas = document.getElementById('draw');
@@ -63,6 +64,7 @@ canvas.addEventListener('mouseout',  () => isDrawing = false);
   html, body {
     margin:0;
   }
+  h3 { text-align: center; font-family: sans-serif; }
 </style>
 
 </body>
