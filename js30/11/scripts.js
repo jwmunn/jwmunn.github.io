@@ -20,7 +20,6 @@ function updateButton() {
 }
 
 function skip() {
-  console.log(this.dataset.skip);
   video.currentTime += parseFloat(this.dataset.skip);
 }
 
@@ -36,11 +35,9 @@ function handleProgress() {
 function scrub(e) {
   const scrubTime = (e.offsetX / progress.offsetWidth) * video.duration;
   video.currentTime = scrubTime;
-  console.log(e);
 }
 
 function handleFullScreen() {
-  console.log('Go Fullscreen');
   if (video.requestFullscreen) {
     video.requestFullscreen();
   } else if (video.msRequestFullscreen) {
