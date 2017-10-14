@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sort Without Articles</title>
+</head>
+<body>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: url("whitney.jpg");
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    #bands {
+      list-style: inside square;
+      font-size: 20px;
+      background: white;
+      width: 500px;
+      margin: auto;
+      padding: 0;
+      box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+    }
+    #bands li {
+      border-bottom: 1px solid #efefef;
+      padding: 20px;
+    }
+    #bands li:last-child {
+      border-bottom: 0;
+    }
+
+    a {
+      color: #ffc600;
+      text-decoration: none;
+    }
+
+    button {
+      width: 150px;
+      height: 50px;
+      border-radius: 5px;
+      background: #ffc600;
+      border: none;
+      color: white;
+      font-size:1.5rem;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      letter-spacing: 2px;
+    }
+
+  </style>
+
+  <ul id="bands"></ul>
+  <button>Sort</button>
+
+<script>
+const bands = ['The Devil Wears Prada', 'Norma Jean', 'The Bled', 'Say Anything', 'We Came as Romans', 'Oh, Sleeper', 'A Skylit Drive', 'Anywhere But Here', 'An Old Dog'];
+
+document.querySelector('#bands').innerHTML = 
+  bands
+    .map(band => `<li>${band}</li>`)
+    .join('');
+
+function strip(bandName) {
+  return bandName.replace(/^(a |the |an )/i, '').trim();
+}
+
+const sortedBands = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1 );
+
+function sortTheBands (){
+  document.querySelector('#bands').innerHTML = 
+  sortedBands
+    .map(band => `<li>${band}</li>`)
+    .join('');
+}
+
+document.querySelector('button').addEventListener('click', sortTheBands);
+
+
+</script>
+
+</body>
+</html>
