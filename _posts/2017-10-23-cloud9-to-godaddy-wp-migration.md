@@ -21,7 +21,7 @@ Right click and download your wp-content folder.
 
 Login to your Cloud9 Wordpress Dashboard
 
-Go to Tools > Export > Download Export File
+Go to Tools > Export > Download Export File. This should download an `.xml` file.
 
 **3. Download Database**
 
@@ -35,7 +35,7 @@ In your browser go to that url and login to phpMyAdmin. Choose your c9 table tha
 ![Export .sql file](/images/wp-migration/sql-export.gif)
 
 
-At the end of these 3 steps you should have a wp-content folder, .xml file and .sql file. These 3 files make up your Wordpress site and content.
+At the end of these 3 steps you should have a `wp-content` folder, `.xml` file and `.sql` file. These 3 files make up your Wordpress site and content.
 
 ### Migrating to GoDaddy
 
