@@ -6,7 +6,11 @@ permalink: /about/
 
 ### Currently
 
-<p>I’m living in <del>Lewes,&nbsp;DE</del> <del>Denver,&nbsp;CO</del> <del>Sacramento,&nbsp;CA</del> <del>Seattle,&nbsp;WA</del> <del>Reno, NV</del> <del>Grand Junction, CO</del> <del>Seattle, WA</del> <del>Anchorage, AK</del>, <strong>San Jose, CA</strong> until early Dec. I spend as much time outside as possible hiking, camping and have a bit of a snowboarding problem. I recently graduated from <a href="http://www.thefirehoseproject.com/">The&nbsp;Firehose&nbsp;Project</a> coding bootcamp, where I apprenticed building full-stack web apps using ruby and javascript.</p>
+<!-- <del>Lewes,&nbsp;DE</del> <del>Denver,&nbsp;CO</del> <del>Sacramento,&nbsp;CA</del> <del>Seattle,&nbsp;WA</del> <del>Reno, NV</del> <del>Grand Junction, CO</del> <del>Seattle, WA</del> <del>Anchorage, AK</del>, <del>San Jose, CA</del> until early Dec -->
+
+I’m currently based out of Seattle, WA. I spend as much time outside as possible hiking, camping and have a bit of a snowboarding problem. I recently graduated from <a href="http://www.thefirehoseproject.com/">The&nbsp;Firehose&nbsp;Project</a> coding bootcamp, where I apprenticed building full-stack web apps using ruby and javascript.
+
+Since graduating, they hired me on as part-time technical support where I answer student questions, debug rails apps, and contribute to the curriculumn source code. I remain the front-end developer maintaining <a href="https://donalddonates.com/">DonaldDonates.com</a>.
 
 #### Skills
 <span class="badge">Javascript</span>
@@ -25,6 +29,6 @@ permalink: /about/
 
 ### Brief History
 
-I was born and raised in South and North Carolina respectively. I’m originally from Darlington, grew up in Rocky Mount, went to undergrad in Wilmington,and moved to Raleigh after graduation in 2010. While living in Raleigh I became a proud husband, and uncle. In June 2014, I started working remotely full-time and following my wife's nursing contracts around the US.
+I was born and raised in South and North Carolina respectively. I’m originally from Darlington, grew up in Rocky Mount, went to undergrad in Wilmington,and moved to Raleigh after graduation in 2010. While living in Raleigh I became a proud husband, and uncle. In June 2014, I started working remotely full-time and following my wife's nursing contracts around the US. We recently adopted a cat and got a dog so we've settled more permanently into Seattle for 2018.
 
 <!--<div id="about-position" class="rellax-uncentered" data-rellax-speed="-7"><h1 class="section-headline">ABOUT</h1></div>-->
