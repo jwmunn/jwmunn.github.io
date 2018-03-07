@@ -9357,7 +9357,7 @@ h1, h2, h3, h5 {
 }
 
 #form-section .form-control-feedback {
-  top: 42px;
+  top: 20px;
 }
 
 #form-section h6 {
@@ -9396,11 +9396,11 @@ h1, h2, h3, h5 {
  }
 
  #col2-vid-a {
-  background-image: url(../img/bg-img1.png);
+  background-image: url(../img/bg-img3.png);
  }
 
  #col2-vid-b {
-  background-image: url(../img/bg-img2.png);
+  background-image: url(../img/bg-img4.png);
  }
 
  /* trustbar */
@@ -9469,9 +9469,7 @@ h1, h2, h3, h5 {
 
 /* nc section */
 #nc {
-  background-image: url(../img/nc-bg.jpg);
-  background-size: cover;
-  bakcground-position: center center;
+  background: #fff;
 }
 
 #nc h3 {
