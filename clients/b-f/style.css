@@ -52,7 +52,7 @@ text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  animation: dizzy 25s infinite;
+  animation: dizzy 15s infinite;
 }
 
 @keyframes dizzy {
@@ -91,6 +91,7 @@ text-align: center;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom center;
+  transition: all .5s ease;
 }
 
 .heart-walking {
@@ -103,6 +104,33 @@ text-align: center;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom center;
+  transition: all .5s ease;
+}
+
+@media screen and (max-width: 800px) {
+  .heart-walking {
+    left: 9%;
+    bottom: 20%;
+  }
+
+  .heart-sitting {
+    height: 15%;
+    width: 160px;
+    left: 42%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heart-walking {
+    left: 7%;
+    bottom: 23%;
+  }
+
+  .heart-sitting {
+    height: 15%;
+    left: 42%;
+    bottom: 1%;
+  }
 }
 
 .vignette {
