@@ -11,9 +11,9 @@ permalink: /about/
 
 <!-- <del>Lewes,&nbsp;DE</del> <del>Denver,&nbsp;CO</del> <del>Sacramento,&nbsp;CA</del> <del>Seattle,&nbsp;WA</del> <del>Reno, NV</del> <del>Grand Junction, CO</del> <del>Seattle, WA</del> <del>Anchorage, AK</del>, <del>San Jose, CA</del> until early Dec -->
 
-I’m currently living in Seattle, WA. I spend as much time outside as possible hiking, camping and have a bit of a snowboarding problem. I recently graduated from <a href="http://www.thefirehoseproject.com/">The&nbsp;Firehose&nbsp;Project</a> coding bootcamp, where I apprenticed building full-stack web apps using ruby and javascript.
+I’m currently pushing code at Microsoft and living in Seattle, WA. I spend as much time outside as possible hiking, camping and have a bit of a snowboarding problem. I recently graduated from <a href="http://www.thefirehoseproject.com/">The&nbsp;Firehose&nbsp;Project</a> coding bootcamp, where I apprenticed building full-stack web apps using ruby and javascript.
 
-Since graduating, they hired me on as part-time technical support where I answer student questions, debug rails apps, and contribute to the curriculumn source code. I remain the front-end developer maintaining the side project <a href="https://donalddonates.com/">DonaldDonates.com</a>.
+After graduating, I worked as part-time technical support, answering student questions, debuggin rails apps, and contributed to the curriculumn source code. I remain the front-end developer maintaining a side project: <a href="https://donalddonates.com/">DonaldDonates.com</a>
 
 #### Skills
 <span class="badge">Ruby on Rails</span>
@@ -23,6 +23,7 @@ Since graduating, they hired me on as part-time technical support where I answer
 <span class="badge">HTML</span>
 <span class="badge">CSS</span>
 <span class="badge">Sass</span>
+<span class="badge">C#</span>
 
 #### Tools
 <span class="badge">Git</span>
