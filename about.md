@@ -15,7 +15,7 @@ I’m currently pushing code at Microsoft and living in Seattle, WA.
 
 I spend as much time outside as possible hiking, camping and have a bit of a snowboarding problem. Currently going through the Basic Alpine Climbing course through [The Mountaineers](https://www.mountaineers.org/) with my wife.
 
-In June 2017, I graduated from [The&nbsp;Firehose&nbsp;Project](http://www.thefirehoseproject.com) coding bootcamp, where I apprenticed building full-stack web apps using ruby and javascript. Aftwerwards, they hired me as part-time technical support: answering student questions, debuggin rails apps, and contributed to the curriculumn source code.
+In June 2017, I graduated from [The&nbsp;Firehose&nbsp;Project](http://www.thefirehoseproject.com) coding bootcamp, where I apprenticed building full-stack web apps using ruby and javascript. Aftwerwards, they hired me as part-time technical support: answering student questions, debugging rails apps, and contributed to the curriculumn source code.
 
 I remain the front-end developer maintaining a side project: [DonaldDonates.com](https://donalddonates.com)
 
